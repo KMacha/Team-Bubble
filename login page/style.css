@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    
 }
 
 body{
@@ -80,12 +81,24 @@ button:hover, button:active, button:focus {
         font-size: 20px;
         font-weight: bold;
 }
+.login{        
+        margin-left: 45px;
+        color: #B377C2;
+        font-size: 20px;
+        font-weight: bold;
+}
 
 .wrapper{
         box-shadow: 0 0  20px 0px rgba(0,0,0,0.05);
         overflow: hidden;
        
        }
+.formtext{
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+        color: #B377C2;
+}
 
 
 a{
@@ -95,7 +108,7 @@ a{
 img {
             display: inherit;
         }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
             .container{
             margin-left: auto;
             margin-right: auto;
@@ -136,5 +149,11 @@ img {
         font-size: 20px;
         font-weight: bold;
 }
-        }
-        
+.login{
+        margin-left: 130px;
+        color: #B377C2;
+        font-size: 18px;
+        font-weight: bold;
+
+}
+}
