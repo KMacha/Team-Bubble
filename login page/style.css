@@ -73,7 +73,7 @@ button {
         cursor: pointer;
         }
 button:hover, button:active, button:focus {
-        background: #4f4e4e;
+        background: #B377C2;
   }
 .signup{
         margin-left: 45px;
@@ -89,9 +89,13 @@ button:hover, button:active, button:focus {
 }
 
 .wrapper{
-        box-shadow: 0 0  20px 0px rgba(0,0,0,0.05);
-        overflow: hidden;
-       
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.05);
+    overflow: hidden;
+    background-color: #ffffff4f;
+       }
+
+       .wrapper img {
+                padding: 12px 0 0 12px;
        }
 .formtext{
         text-align: left;
