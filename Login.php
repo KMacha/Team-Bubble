@@ -16,7 +16,7 @@ if ($num == 1){
     header('location:index.php');
    exit;
 }else{
-    header('location:Login.html');
+    header('location:index.html');
      echo"<h2>Username and Password is Invalid<h2>";
 }
 ?>

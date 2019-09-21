@@ -20,10 +20,10 @@ if ($num == 1){
     echo "Username Already Taken";
 
 }else{
-    $reg ="insert into signup(fullName , Username , Password , retypePassword , Email) value ('$name' , '$user' , '$pass' , '$repass' , '$email')";
+    $reg ="insert into signup(fullName , Username , Password , Email) value ('$name' , '$user' , '$pass' , '$email')";
     mysqli_query($con, $reg);
     echo "<h2>Registration Succesfully</h2>";
-    header('location:Login.html'); 
+    header('location:index.html'); 
     
 
 }
